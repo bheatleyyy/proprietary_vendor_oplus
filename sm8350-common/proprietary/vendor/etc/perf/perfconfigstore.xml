@@ -64,6 +64,7 @@ ________________________________________________________________________________
                 <Prop Name="ro.lmk.enable_watermark_check" Value="true" />
                 <Prop Name="ro.lmk.enable_preferred_apps" Value="true" />
                 <Prop Name="ro.lmk.use_new_strategy_dup" Value="true" />
+                <Prop Name="ro.lmk.psi_scrit_complete_stall_ms" Value="150" />
 		<Prop Name="ro.lmk.super_critical" Value="701" />
 
                 <!--#ifndef  OPLUS_FEATURE_PERFORMANCE-->
@@ -130,9 +131,9 @@ ________________________________________________________________________________
                 <Prop Name="vendor.perf.pfar2.boost_level" Value="1" Target="shima"/>
                 <Prop Name="vendor.perf.pfar2.disable_pl" Value="1" Target="shima"/>
                 <Prop Name="vendor.perf.pfar2.disable_core_ctl" Value="1" Target="shima"/>
-                <Prop Name="vendor.perf.phr.enable" Value="1" Target="yupik"/>
+                <Prop Name="vendor.perf.phr.enable" Value="0" Target="yupik"/>
                 <Prop Name="vendor.perf.phr.hr_min_rate" Value="0.5" Target="yupik"/>
-                <Prop Name="vendor.perf.pfar2.enable" Value="1" Target="yupik"/>
+                <Prop Name="vendor.perf.pfar2.enable" Value="0" Target="yupik"/>
                 <Prop Name="vendor.perf.pfar2.boost_level" Value="1" Target="yupik"/>
                 <Prop Name="vendor.perf.pfar2.disable_pl" Value="1" Target="yupik"/>
                 <Prop Name="vendor.perf.pfar2.disable_core_ctl" Value="1" Target="yupik"/>

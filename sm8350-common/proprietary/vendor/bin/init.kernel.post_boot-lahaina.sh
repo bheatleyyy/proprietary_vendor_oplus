@@ -217,10 +217,16 @@ function configure_memory_parameters() {
 	MemTotal=${MemTotalStr:16:8}
 
 #ifdef OPLUS_FEATURE_ZRAM_OPT
-	if [ -f /sys/block/zram0/hybridswap_enable ]; then
-		oplus_configure_hybridswap
-	else
+	# For vts test which has replace system.img
+	ls -l /product | grep '\-\>'
+	if [ $? -eq 0 ]; then
 		oppo_configure_zram_parameters
+	else
+		if [ -f /sys/block/zram0/hybridswap_enable ]; then
+			oplus_configure_hybridswap
+		else
+			oppo_configure_zram_parameters
+		fi
 	fi
         oplus_configure_tunning_swappiness
 #else
