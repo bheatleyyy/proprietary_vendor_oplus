@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter cupid martini OP524F RMX3312 RMX3360 RMX3461,$(TARGET_DEVICE)),)
+ifneq ($(filter cupid ice lunaa martini porsche,$(TARGET_DEVICE)),)
 
 endif
