@@ -1857,7 +1857,7 @@
                             "third_input_height": 0,
                             "output_width": 1440,
                             "output_height": 1080,
-                            "skip_frame_cnt": 7,
+                            "skip_frame_cnt": 0,
                             "pipeline_copy_from": "pipeline_default",
                             "algonode_copy_from": "preview_default",
                             "algo_list": [ "preview_asd" ]
