@@ -7,6 +7,8 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/oplus/martini/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
+    vendor/oplus/martini/proprietary/odm/bin/hw/vendor.pixelworks.hardware.display.iris-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.pixelworks.hardware.display.iris-service \
+    vendor/oplus/martini/proprietary/odm/bin/hw/vendor.pixelworks.hardware.feature.irisfeature-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.pixelworks.hardware.feature.irisfeature-service \
     vendor/oplus/martini/proprietary/odm/bin/hw/vendor.qti.esepowermanager@1.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.qti.esepowermanager@1.1-service \
     vendor/oplus/martini/proprietary/odm/bin/hw/vendor.qti.secure_element@1.2-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.qti.secure_element@1.2-service \
     vendor/oplus/martini/proprietary/odm/bin/init.oplus.fingerprints.sh:$(TARGET_COPY_OUT_ODM)/bin/init.oplus.fingerprints.sh \
@@ -466,8 +468,35 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/martini/proprietary/odm/etc/camera/wide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/wide.bin \
     vendor/oplus/martini/proprietary/odm/etc/init/calibrationOutput_uw.rc:$(TARGET_COPY_OUT_ODM)/etc/init/calibrationOutput_uw.rc \
     vendor/oplus/martini/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
+    vendor/oplus/martini/proprietary/odm/etc/init/vendor.pixelworks.hardware.display.iris-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.pixelworks.hardware.display.iris-service.rc \
+    vendor/oplus/martini/proprietary/odm/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service.rc \
     vendor/oplus/martini/proprietary/odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
     vendor/oplus/martini/proprietary/odm/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.secure_element@1.2-service.rc \
+    vendor/oplus/martini/proprietary/odm/etc/inparm/irissoft/inParm.lst:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm.lst \
+    vendor/oplus/martini/proprietary/odm/etc/inparm/irissoft/inParm1.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm1.txt \
+    vendor/oplus/martini/proprietary/odm/etc/inparm/irissoft/inParm10.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm10.txt \
+    vendor/oplus/martini/proprietary/odm/etc/inparm/irissoft/inParm11.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm11.txt \
+    vendor/oplus/martini/proprietary/odm/etc/inparm/irissoft/inParm12.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm12.txt \
+    vendor/oplus/martini/proprietary/odm/etc/inparm/irissoft/inParm13.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm13.txt \
+    vendor/oplus/martini/proprietary/odm/etc/inparm/irissoft/inParm13_low.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm13_low.txt \
+    vendor/oplus/martini/proprietary/odm/etc/inparm/irissoft/inParm14.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm14.txt \
+    vendor/oplus/martini/proprietary/odm/etc/inparm/irissoft/inParm14_low.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm14_low.txt \
+    vendor/oplus/martini/proprietary/odm/etc/inparm/irissoft/inParm15.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm15.txt \
+    vendor/oplus/martini/proprietary/odm/etc/inparm/irissoft/inParm15_low.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm15_low.txt \
+    vendor/oplus/martini/proprietary/odm/etc/inparm/irissoft/inParm16.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm16.txt \
+    vendor/oplus/martini/proprietary/odm/etc/inparm/irissoft/inParm17.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm17.txt \
+    vendor/oplus/martini/proprietary/odm/etc/inparm/irissoft/inParm18.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm18.txt \
+    vendor/oplus/martini/proprietary/odm/etc/inparm/irissoft/inParm2.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm2.txt \
+    vendor/oplus/martini/proprietary/odm/etc/inparm/irissoft/inParm3.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm3.txt \
+    vendor/oplus/martini/proprietary/odm/etc/inparm/irissoft/inParm4.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm4.txt \
+    vendor/oplus/martini/proprietary/odm/etc/inparm/irissoft/inParm5.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm5.txt \
+    vendor/oplus/martini/proprietary/odm/etc/inparm/irissoft/inParm6.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm6.txt \
+    vendor/oplus/martini/proprietary/odm/etc/inparm/irissoft/inParm7.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm7.txt \
+    vendor/oplus/martini/proprietary/odm/etc/inparm/irissoft/inParm8.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm8.txt \
+    vendor/oplus/martini/proprietary/odm/etc/inparm/irissoft/inParm9.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm9.txt \
+    vendor/oplus/martini/proprietary/odm/etc/inparm/irissoft/mcfCheck.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/mcfCheck.txt \
+    vendor/oplus/martini/proprietary/odm/etc/inparm/irissoft/mcfCheck_low.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/mcfCheck_low.txt \
+    vendor/oplus/martini/proprietary/odm/etc/irissoft.fw:$(TARGET_COPY_OUT_ODM)/etc/irissoft.fw \
     vendor/oplus/martini/proprietary/odm/etc/lvacfs_params/2mic/LVACFS_Calibration360_2mic.dat:$(TARGET_COPY_OUT_ODM)/etc/lvacfs_params/2mic/LVACFS_Calibration360_2mic.dat \
     vendor/oplus/martini/proprietary/odm/etc/lvacfs_params/2mic/LVACFS_Configuration.txt:$(TARGET_COPY_OUT_ODM)/etc/lvacfs_params/2mic/LVACFS_Configuration.txt \
     vendor/oplus/martini/proprietary/odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID10_MIC_VR.txt:$(TARGET_COPY_OUT_ODM)/etc/lvacfs_params/2mic/LVACFS_Parameter_ID10_MIC_VR.txt \
@@ -683,6 +712,14 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/martini/proprietary/odm/lib64/liboptical_zoom_vs.so:$(TARGET_COPY_OUT_ODM)/lib64/liboptical_zoom_vs.so \
     vendor/oplus/martini/proprietary/odm/lib64/libormshalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libormshalclient.so \
     vendor/oplus/martini/proprietary/odm/lib64/libosensehalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libosensehalclient.so \
+    vendor/oplus/martini/proprietary/odm/lib64/libpwirisIoctlWrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/libpwirisIoctlWrapper.so \
+    vendor/oplus/martini/proprietary/odm/lib64/libpwirisPCS.so:$(TARGET_COPY_OUT_ODM)/lib64/libpwirisPCS.so \
+    vendor/oplus/martini/proprietary/odm/lib64/libpwiriscalibrate.so:$(TARGET_COPY_OUT_ODM)/lib64/libpwiriscalibrate.so \
+    vendor/oplus/martini/proprietary/odm/lib64/libpwirispq.so:$(TARGET_COPY_OUT_ODM)/lib64/libpwirispq.so \
+    vendor/oplus/martini/proprietary/odm/lib64/libpwirisservice.so:$(TARGET_COPY_OUT_ODM)/lib64/libpwirisservice.so \
+    vendor/oplus/martini/proprietary/odm/lib64/libpwirissoft.so:$(TARGET_COPY_OUT_ODM)/lib64/libpwirissoft.so \
+    vendor/oplus/martini/proprietary/odm/lib64/libpwsoftirisPCS.so:$(TARGET_COPY_OUT_ODM)/lib64/libpwsoftirisPCS.so \
+    vendor/oplus/martini/proprietary/odm/lib64/libsnapdragoncolor-pxlw.so:$(TARGET_COPY_OUT_ODM)/lib64/libsnapdragoncolor-pxlw.so \
     vendor/oplus/martini/proprietary/odm/lib64/libsnpe_dsp_domains_v2.so:$(TARGET_COPY_OUT_ODM)/lib64/libsnpe_dsp_domains_v2.so \
     vendor/oplus/martini/proprietary/odm/lib64/libsnpe_dsp_domains_v3.so:$(TARGET_COPY_OUT_ODM)/lib64/libsnpe_dsp_domains_v3.so \
     vendor/oplus/martini/proprietary/odm/lib64/libsnpe_htp.so:$(TARGET_COPY_OUT_ODM)/lib64/libsnpe_htp.so \
@@ -717,6 +754,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/martini/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
     vendor/oplus/martini/proprietary/vendor/etc/camera/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode:$(TARGET_COPY_OUT_VENDOR)/etc/camera/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode \
     vendor/oplus/martini/proprietary/vendor/etc/init/init.vendor.wlan.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.wlan.rc \
+    vendor/oplus/martini/proprietary/vendor/etc/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml \
     vendor/oplus/martini/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/oplus/martini/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/oplus/martini/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
@@ -856,6 +894,8 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/martini/proprietary/vendor/lib64/libopencv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopencv.so \
     vendor/oplus/martini/proprietary/vendor/lib64/libopestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopestriping.so \
     vendor/oplus/martini/proprietary/vendor/lib64/libos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libos.so \
+    vendor/oplus/martini/proprietary/vendor/lib64/libpwirisfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwirisfeature.so \
+    vendor/oplus/martini/proprietary/vendor/lib64/libpwirishalwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwirishalwrapper.so \
     vendor/oplus/martini/proprietary/vendor/lib64/libqll10.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqll10.so \
     vendor/oplus/martini/proprietary/vendor/lib64/libqllengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqllengine.so \
     vendor/oplus/martini/proprietary/vendor/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswregistrationalgo.so \
@@ -867,4 +907,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/martini/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
 PRODUCT_PACKAGES += \
-    manifest_oplus_fingerprint
+    manifest_oplus_fingerprint \
+    vendor.pixelworks.hardware.display.iris-service \
+    vendor.pixelworks.hardware.feature.irisfeature-service
