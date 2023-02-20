@@ -70,7 +70,8 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/lunaa/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID7_MIC_Interview.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID7_MIC_Interview.txt \
     vendor/oplus/lunaa/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt \
     vendor/oplus/lunaa/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt \
-    vendor/oplus/lunaa/proprietary/vendor/etc/libnfc-st21h_conf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-st21h_conf.txt \
+    vendor/oplus/lunaa/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
+    vendor/oplus/lunaa/proprietary/vendor/firmware/libnfc-st21h_conf.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/libnfc-st21h_conf.txt \
     vendor/oplus/lunaa/proprietary/vendor/firmware/st21nfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw.bin \
     vendor/oplus/lunaa/proprietary/vendor/firmware/st21nfc_fw7.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw7.bin \
     vendor/oplus/lunaa/proprietary/odm/etc/sensor.cfg:$(TARGET_COPY_OUT_ODM)/etc/sensor.cfg \
@@ -137,7 +138,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/lunaa/proprietary/odm/lib/rfsa/adsp/libvdblurless_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libvdblurless_skel.so \
     vendor/oplus/lunaa/proprietary/odm/lib/rfsa/adsp/libvdsuperphoto_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libvdsuperphoto_skel.so \
     vendor/oplus/lunaa/proprietary/odm/lib/rfsa/adsp/libworker_pool.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libworker_pool.so \
-    vendor/oplus/lunaa/proprietary/odm/lib/vendor.oplus.hardware.performance@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.performance@1.0.so \
     vendor/oplus/lunaa/proprietary/odm/lib64/camera/com.qti.sensor.hi846.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.hi846.so \
     vendor/oplus/lunaa/proprietary/odm/lib64/camera/com.qti.sensor.imx615.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.imx615.so \
     vendor/oplus/lunaa/proprietary/odm/lib64/camera/com.qti.sensor.ov02b.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.ov02b.so \
@@ -258,7 +258,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/lunaa/proprietary/odm/lib64/libmpbase.so:$(TARGET_COPY_OUT_ODM)/lib64/libmpbase.so \
     vendor/oplus/lunaa/proprietary/odm/lib64/libop-ai-beauty-body-detection.so:$(TARGET_COPY_OUT_ODM)/lib64/libop-ai-beauty-body-detection.so \
     vendor/oplus/lunaa/proprietary/odm/lib64/libop-ai-beauty-faceretouch-cn.so:$(TARGET_COPY_OUT_ODM)/lib64/libop-ai-beauty-faceretouch-cn.so \
-    vendor/oplus/lunaa/proprietary/odm/lib64/liboplus_service.so:$(TARGET_COPY_OUT_ODM)/lib64/liboplus_service.so \
     vendor/oplus/lunaa/proprietary/odm/lib64/liboplusvppfilter.so:$(TARGET_COPY_OUT_ODM)/lib64/liboplusvppfilter.so \
     vendor/oplus/lunaa/proprietary/odm/lib64/libormshalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libormshalclient.so \
     vendor/oplus/lunaa/proprietary/odm/lib64/libosensehalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libosensehalclient.so \
