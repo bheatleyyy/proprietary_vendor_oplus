@@ -1,0 +1,74 @@
+{
+    "default": {
+        "feature_resolution_enable": true,
+        "isSkipfusion": true,
+        "feature_enable_fwk_timer": false,
+        "limitSizeListForCts":[
+        4096, 3072,
+        4000, 3008,
+        4000, 3000,
+        3840, 2160,
+        3280, 2464,
+        3264, 2448,
+        3000, 3000,
+        2880, 2160,
+        2592, 1944,
+        2560, 1440,
+        2328, 1748,
+        2160, 1080,
+        1920, 1080,
+        1600, 1200,
+        1440, 1080,
+        1280, 960,
+        1280, 720,
+        720,  480,
+        640,  640,
+        640,  480,
+        352,  288,
+        320,  240,
+        176,  144,
+        0,    0
+        ],
+        "limitThumbnailSizeListForCts": [
+        0,   0,
+        176, 144,
+        213, 160,
+        240, 144,
+        256, 144,
+        240, 160,
+        256, 154,
+        246, 184,
+        250, 188,
+        352, 160,
+        240, 240,
+        400, 180,
+        320, 240,
+        374, 282
+        ]
+    },
+    "com.smile.gifmaker": {
+        "adjustInvalidFpsForAPI1": true
+    },
+    "com.eg.android.AlipayGphone": {
+        "previewSizeForAPI1Width": 1584,
+        "previewSizeForAPI1Height": 720
+    },
+    "com.tencent.qqlivei18n":  {
+        "previewSizeForAPI1Width": 1600,
+        "previewSizeForAPI1Height": 720
+    },
+    "autotest.oplus.com.simulatedlivebroadcast": {
+        "resolutionFilterForNotAddRearPreviewSizeAPI1": [
+            "4096x1840",
+            "4000x1790",
+            "3280x2464",
+            "3264x2448",
+            "3200x2400",
+            "2592x1944"
+        ]
+    },
+    "com.taikang.tailife": {
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080
+    }
+}
