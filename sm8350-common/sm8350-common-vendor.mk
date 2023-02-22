@@ -29,13 +29,19 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/sm8350-common/proprietary/odm/lib64/libgf_hal_G3.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G3.so \
     vendor/oplus/sm8350-common/proprietary/odm/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_ODM)/lib64/liboemcrypto.so \
     vendor/oplus/sm8350-common/proprietary/odm/lib64/liboplus_service.so:$(TARGET_COPY_OUT_ODM)/lib64/liboplus_service.so \
+    vendor/oplus/sm8350-common/proprietary/odm/lib64/libpwirisfeature.so:$(TARGET_COPY_OUT_ODM)/lib64/libpwirisfeature.so \
+    vendor/oplus/sm8350-common/proprietary/odm/lib64/libpwirishalwrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/libpwirishalwrapper.so \
     vendor/oplus/sm8350-common/proprietary/odm/lib64/libwvhidl.so:$(TARGET_COPY_OUT_ODM)/lib64/libwvhidl.so \
     vendor/oplus/sm8350-common/proprietary/odm/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_ODM)/lib64/mediadrm/libwvdrmengine.so \
     vendor/oplus/sm8350-common/proprietary/odm/lib64/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.appradio@1.0.so \
     vendor/oplus/sm8350-common/proprietary/odm/lib64/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.commondcs@1.0.so \
+    vendor/oplus/sm8350-common/proprietary/odm/lib64/vendor.oplus.hardware.cwb@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cwb@1.0.so \
     vendor/oplus/sm8350-common/proprietary/odm/lib64/vendor.oplus.hardware.ims@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.ims@1.0.so \
     vendor/oplus/sm8350-common/proprietary/odm/lib64/vendor.oplus.hardware.performance@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.performance@1.0.so \
     vendor/oplus/sm8350-common/proprietary/odm/lib64/vendor.oplus.hardware.radio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.radio@1.0.so \
+    vendor/oplus/sm8350-common/proprietary/odm/lib64/vendor.pixelworks.hardware.display@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.pixelworks.hardware.display@1.0.so \
+    vendor/oplus/sm8350-common/proprietary/odm/lib64/vendor.pixelworks.hardware.display@1.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.pixelworks.hardware.display@1.1.so \
+    vendor/oplus/sm8350-common/proprietary/odm/lib64/vendor.pixelworks.hardware.feature@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.pixelworks.hardware.feature@1.0.so \
     vendor/oplus/sm8350-common/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/oplus/sm8350-common/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/oplus/sm8350-common/proprietary/system_ext/bin/tcmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/tcmd \
@@ -133,6 +139,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/sm8350-common/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
     vendor/oplus/sm8350-common/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.alarm@1.0-service \
     vendor/oplus/sm8350-common/proprietary/vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service \
+    vendor/oplus/sm8350-common/proprietary/vendor/bin/hw/vendor.qti.hardware.display.composer-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.display.composer-service \
     vendor/oplus/sm8350-common/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@2.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf@2.2-service \
     vendor/oplus/sm8350-common/proprietary/vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qseecom@1.0-service \
     vendor/oplus/sm8350-common/proprietary/vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service \
@@ -450,6 +457,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/sm8350-common/proprietary/vendor/etc/sensors/config/sns_tilt_to_wake.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_to_wake.json \
     vendor/oplus/sm8350-common/proprietary/vendor/etc/sensors/config/sns_wrist_pedo.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_wrist_pedo.json \
     vendor/oplus/sm8350-common/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
+    vendor/oplus/sm8350-common/proprietary/vendor/etc/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml \
     vendor/oplus/sm8350-common/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/oplus/sm8350-common/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
     vendor/oplus/sm8350-common/proprietary/vendor/etc/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json \
@@ -803,9 +811,11 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/sm8350-common/proprietary/vendor/lib64/libcvp2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvp2_1.so \
     vendor/oplus/sm8350-common/proprietary/vendor/lib64/libcvp_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvp_common.so \
     vendor/oplus/sm8350-common/proprietary/vendor/lib64/libcvpcpuRev_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvpcpuRev_skel.so \
+    vendor/oplus/sm8350-common/proprietary/vendor/lib64/libcwb_sm8350.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcwb_sm8350.so \
     vendor/oplus/sm8350-common/proprietary/vendor/lib64/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdataitems.so \
     vendor/oplus/sm8350-common/proprietary/vendor/lib64/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag.so \
     vendor/oplus/sm8350-common/proprietary/vendor/lib64/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisp-aba.so \
+    vendor/oplus/sm8350-common/proprietary/vendor/lib64/libdisplayconfig.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisplayconfig.qti.so \
     vendor/oplus/sm8350-common/proprietary/vendor/lib64/libdisplayqos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisplayqos.so \
     vendor/oplus/sm8350-common/proprietary/vendor/lib64/libdisplayskuutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisplayskuutils.so \
     vendor/oplus/sm8350-common/proprietary/vendor/lib64/libdpmqmihal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpmqmihal.so \
@@ -825,6 +835,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/sm8350-common/proprietary/vendor/lib64/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpudataproducer.so \
     vendor/oplus/sm8350-common/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
     vendor/oplus/sm8350-common/proprietary/vendor/lib64/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_tm.so \
+    vendor/oplus/sm8350-common/proprietary/vendor/lib64/libhistogram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhistogram.so \
     vendor/oplus/sm8350-common/proprietary/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so \
     vendor/oplus/sm8350-common/proprietary/vendor/lib64/libizat_client_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_client_api.so \
     vendor/oplus/sm8350-common/proprietary/vendor/lib64/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_core.so \
@@ -920,11 +931,14 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/sm8350-common/proprietary/vendor/lib64/libscveObjectSegmentation_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectSegmentation_stub.so \
     vendor/oplus/sm8350-common/proprietary/vendor/lib64/libscveObjectTracker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectTracker.so \
     vendor/oplus/sm8350-common/proprietary/vendor/lib64/libscveObjectTracker_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectTracker_stub.so \
+    vendor/oplus/sm8350-common/proprietary/vendor/lib64/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdedrm.so \
     vendor/oplus/sm8350-common/proprietary/vendor/lib64/libsdm-color.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-color.so \
     vendor/oplus/sm8350-common/proprietary/vendor/lib64/libsdm-colormgr-algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-colormgr-algo.so \
     vendor/oplus/sm8350-common/proprietary/vendor/lib64/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-diag.so \
     vendor/oplus/sm8350-common/proprietary/vendor/lib64/libsdm-disp-vndapis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-vndapis.so \
+    vendor/oplus/sm8350-common/proprietary/vendor/lib64/libsdmcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmcore.so \
     vendor/oplus/sm8350-common/proprietary/vendor/lib64/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmextension.so \
+    vendor/oplus/sm8350-common/proprietary/vendor/lib64/libsdmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmutils.so \
     vendor/oplus/sm8350-common/proprietary/vendor/lib64/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdsprpc.so \
     vendor/oplus/sm8350-common/proprietary/vendor/lib64/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorcal.so \
     vendor/oplus/sm8350-common/proprietary/vendor/lib64/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorslog.so \
